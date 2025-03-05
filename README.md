@@ -1,6 +1,6 @@
 # HalalChain GitHub App
 
-**HalalChain** is designed to **ensure that software development practices and codebases comply with Open Source standards, providing a framework for developers and organizations to build and maintain applications that align with Open Source Ecosystem. By integrates seamlessly with GitHub to automate compliance checks, code reviews, and dependency monitoring, making it easier for teams to adhere to ethical and religious guidelines while developing software.
+**HalalChain** is designed to ensure that software development practices and codebases comply with Open Source standards, providing a framework for developers and organizations to build and maintain applications that align with Open Source Ecosystem. Integrates seamlessly with GitHub to automate compliance checks, code reviews, and dependency monitoring, making it easier for teams to adhere to ethical and religious guidelines while developing software.
 
 ### Key Objectives of HalalChain:
 1. **Promote Ethical Development**:
