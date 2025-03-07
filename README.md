@@ -1,6 +1,6 @@
 # HalalChain GitHub App
 
-**HalalChain** is designed to ensure that software development practices and codebases comply with **Open Source** standards, providing a framework for developers and organizations to build and maintain applications that align with **Open Source Ecosystem.** Integrates seamlessly with **GitHub** to automate compliance checks, code reviews, and dependency monitoring, making it easier for teams to adhere to ethical and religious guidelines while developing software.
+**HalalChain** is designed to ensure that software development practices and codebases comply with **Open Source** standards, providing a framework for developers and organizations to build and maintain applications that align with the **Open Source Ecosystem.** Integrates seamlessly with **GitHub** to automate compliance checks, code reviews, and dependency monitoring, making it easier for teams to adhere to ethical and religious guidelines while developing software.
 
 ### Key Objectives of HalalChain:
 1. **Promote Ethical Development**:
@@ -44,92 +44,6 @@
 2. **Financial Apps**:
    - Verify that financial algorithms and transactions adhere to Islamic finance principles (e.g., no interest-based transactions).
 
-3. **Healthcare Apps**:
-   - Ensure that patient data handling and medical algorithms comply with ethical and Halal guidelines.
+**HalalChain is licensed under the [GNU GPL](LICENSE)**.
 
-4. **E-commerce Platforms**:
-   - Monitor product listings and transactions to ensure they meet Halal standards.
-
----
-
-## Installation
-To install HalalChain, follow these steps:
-
-1. Go to the [GitHub App page](#) (replace with your app's URL).
-2. Click **Install**.
-3. Choose the repositories or organizations where you want to install the app.
-4. Confirm the installation.
-
----
-
-## Permissions
-HalalChain requires the following permissions:
-- **Repository permissions**:
-  - `Read` access to code.
-  - `Write` access to issues and pull requests.
-- **Organization permissions**:
-  - `Read` access to members (if applicable).
-
----
-
-## Webhook Events
-HalalChain subscribes to the following events:
-- `push`: Triggered when code is pushed to a repository.
-- `pull_request`: Triggered when a pull request is opened, closed, or updated.
-- `issues`: Triggered when an issue is opened, closed, or commented on.
-
----
-
-## Configuration
-To configure HalalChain, you need the following:
-- **App ID**: `your_app_id`
-- **Client ID**: `your_client_id`
-- **Client Secret**: `your_client_secret`
-- **Private Key**: Download the `.pem` file from the GitHub App settings.
-
----
-
-## Usage
-### Authenticating with the GitHub API
-Use the private key to authenticate your app:
-
-```python
-from github import GithubIntegration
-
-app_id = "your_app_id"
-private_key = open("path/to/your/private-key.pem").read()
-
-integration = GithubIntegration(app_id, private_key)
-installation_id = "your_installation_id"
-access_token = integration.get_access_token(installation_id)
-
-from github import Github
-g = Github(access_token.token)
-repo = g.get_repo("owner/repo")
-issues = repo.get_issues()
-for issue in issues:
-    print(issue.title)
-```
-
----
-
-## Contributing
-We welcome contributions! To contribute:
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/YourFeature`).
-3. Commit your changes (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature/YourFeature`).
-5. Open a pull request.
-
----
-
-## Support
-For support, please [open an issue](#) or contact us at [[support@halal-chain.com](mailto:support@halal-chain.com)](mailto:[support@halal-chain.com](mailto:support@halal-chain.com)).
-
----
-
-## License
-HalalChain is licensed under the [MIT License](LICENSE).
-
----
 
