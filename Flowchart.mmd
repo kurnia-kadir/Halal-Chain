@@ -1,0 +1,34 @@
+architecture-beta
+    group halalchain(cloud)[HalalChain Ecosystem]
+
+    service vendors(server)[Global Vendors] in halalchain
+    service customers(server)[International Customers] in halalchain
+    service halalchain_platform(database)[HalalChain Platform] in halalchain
+
+    group adobe(cloud)[Adobe Commerce Integration] in halalchain
+    service magento(database)[Adobe Commerce (Magento 2)] in adobe
+    service marketplaces(cloud)[Global Marketplaces] in adobe
+
+    group compliance(cloud)[Global Commerce & Compliance] in halalchain
+    service payments(database)[Multi-Currency & Payment Gateway] in compliance
+    service shipping(server)[Cross-Border Shipping & Tax Compliance] in compliance
+
+    group integrations(cloud)[Advanced Integrations] in halalchain
+    service ai(server)[AI & Analytics] in integrations
+    service blockchain(server)[Blockchain & Security] in integrations
+    service iot(server)[IoT & Tracking] in integrations
+    service erp(database)[ERP System] in integrations
+
+    vendors:R --> L:halalchain_platform
+    customers:R --> L:halalchain_platform
+
+    halalchain_platform:R --> L:magento
+    magento:R --> L:marketplaces
+
+    halalchain_platform:B --> T:payments
+    halalchain_platform:B --> T:shipping
+
+    halalchain_platform:R --> L:ai
+    halalchain_platform:R --> L:blockchain
+    halalchain_platform:R --> L:iot
+    halalchain_platform:R --> L:erp
