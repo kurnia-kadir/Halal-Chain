@@ -1,0 +1,84 @@
+{
+  "resources": [
+    {
+      "id": "1000057822",
+      "type": "image",
+      "filename": "islamic-art.jpg",
+      "filesize": "2.3MB",
+      "filetype": "image/jpeg",
+      "description": "An image showcasing Islamic art, featuring intricate geometric patterns and calligraphy, often found in mosques and Islamic manuscripts.",
+      "source": {
+        "website": "https://islamicartarchive.com",
+        "author": "Unknown"
+      },
+      "license": "Creative Commons Attribution 4.0 International",
+      "download_link": "https://islamicartarchive.com/download/islamic-art.jpg",
+      "tags": ["Islamic art", "calligraphy", "geometric patterns", "mosque", "culture"],
+      "timestamp": "2025-03-08T13:00:00Z"
+    },
+    {
+      "id": "1000057823",
+      "type": "article",
+      "filename": "five-pillars-of-islam.pdf",
+      "filesize": "1.2MB",
+      "filetype": "application/pdf",
+      "description": "An article explaining the Five Pillars of Islam, which are the foundation of a Muslim's faith and practice.",
+      "source": {
+        "website": "https://islamiceducationhub.com",
+        "author": "Aisha Rahman"
+      },
+      "license": "Public Domain",
+      "download_link": "https://islamiceducationhub.com/download/five-pillars-of-islam.pdf",
+      "tags": ["Five Pillars", "faith", "practice", "Islam", "religion"],
+      "timestamp": "2025-03-08T13:30:00Z"
+    },
+    {
+      "id": "1000057824",
+      "type": "video",
+      "filename": "history-of-islam.mp4",
+      "filesize": "150MB",
+      "filetype": "video/mp4",
+      "description": "A documentary video covering the history of Islam, from its beginnings in the Arabian Peninsula to its spread across the world.",
+      "source": {
+        "website": "https://islamichistorychannel.com",
+        "author": "Islamic History Channel"
+      },
+      "license": "Creative Commons Attribution-NonCommercial 4.0 International",
+      "download_link": "https://islamichistorychannel.com/download/history-of-islam.mp4",
+      "tags": ["history", "Islam", "documentary", "Arabian Peninsula", "spread of Islam"],
+      "timestamp": "2025-03-08T14:00:00Z"
+    },
+    {
+      "id": "1000057825",
+      "type": "audio",
+      "filename": "quran-recitation.mp3",
+      "filesize": "50MB",
+      "filetype": "audio/mpeg",
+      "description": "A beautiful recitation of the Quran by a renowned Qari, featuring Surah Al-Fatiha and Surah Al-Baqarah.",
+      "source": {
+        "website": "https://quranrecitations.com",
+        "author": "Sheikh Mishary Rashid Alafasy"
+      },
+      "license": "All Rights Reserved",
+      "download_link": "https://quranrecitations.com/download/quran-recitation.mp3",
+      "tags": ["Quran", "recitation", "Surah Al-Fatiha", "Surah Al-Baqarah", "Sheikh Mishary"],
+      "timestamp": "2025-03-08T14:30:00Z"
+    },
+    {
+      "id": "1000057826",
+      "type": "ebook",
+      "filename": "islamic-golden-age.epub",
+      "filesize": "3.5MB",
+      "filetype": "application/epub+zip",
+      "description": "An eBook detailing the Islamic Golden Age, highlighting contributions to science, medicine, and philosophy.",
+      "source": {
+        "website": "https://islamicgoldenagearchive.com",
+        "author": "Dr. Ahmed Khan"
+      },
+      "license": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International",
+      "download_link": "https://islamicgoldenagearchive.com/download/islamic-golden-age.epub",
+      "tags": ["Islamic Golden Age", "science", "medicine", "philosophy", "history"],
+      "timestamp": "2025-03-08T15:00:00Z"
+    }
+  ]
+}
